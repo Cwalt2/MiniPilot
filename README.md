@@ -1,3 +1,94 @@
+<!-- README Template for MiniPilot Project -->
+<h1 align="center">MiniPilot 🚗🤖</h1>
+<p align="center">
+  <em>Autonomous robot powered by Raspberry Pi 5 and YOLOv5n</em>
+</p>
+<hr/>
+
+<h2>🌟 Project Overview</h2>
+<p>
+  <strong>MiniPilot</strong> is a DIY robot platform leveraging a custom-trained <a href="https://github.com/ultralytics/yolov5">YOLOv5n</a> neural network for object detection and navigation. Built on a Raspberry Pi 5, MiniPilot aims to provide a simple yet powerful starting point for robotics and AI enthusiasts.
+</p>
+
+<h2>🛠️ Features</h2>
+<ul>
+  <li>Real-time object detection with YOLOv5n</li>
+  <li>Custom-trained model for specific environments</li>
+  <li>Raspberry Pi 5 hardware integration</li>
+  <li>Modular Python codebase</li>
+  <li>Easy to extend for your own robot builds</li>
+</ul>
+
+<h2>📦 Hardware Requirements</h2>
+<ul>
+  <li>Raspberry Pi 5</li>
+  <li>Camera module (compatible with Pi)</li>
+  <li>Motors and motor driver (e.g., L298N)</li>
+  <li>Chassis & wheels</li>
+  <li>Power supply</li>
+  <li>Optional: Ultrasonic sensors, additional sensors</li>
+</ul>
+
+<h2>💻 Software Stack</h2>
+<ul>
+  <li>Python 3.x</li>
+  <li>PyTorch</li>
+  <li>YOLOv5n (custom-trained weights)</li>
+  <li>OpenCV for image processing</li>
+  <li>GPIO libraries for hardware control</li>
+</ul>
+
+<h2>🚀 Getting Started</h2>
+<ol>
+  <li>Clone this repository:
+    <pre><code>git clone https://github.com/Cwalt2/yolov5-x-MiniPilot.git</code></pre>
+  </li>
+  <li>Install dependencies:
+    <pre><code>pip install -r requirements.txt</code></pre>
+  </li>
+  <li>Download your custom YOLOv5n weights and place them in the <code>weights/</code> directory.</li>
+  <li>Connect your Pi5 to the robot hardware as per <a href="#hardware-requirements">Hardware Requirements</a>.</li>
+  <li>Run the main script:
+    <pre><code>python minipilot.py</code></pre>
+  </li>
+</ol>
+
+<h2>📚 Documentation</h2>
+<ul>
+  <li><a href="#project-overview">Project Overview</a></li>
+  <li><a href="#hardware-requirements">Hardware Requirements</a></li>
+  <li><a href="#software-stack">Software Stack</a></li>
+  <li><a href="#getting-started">Getting Started</a></li>
+  <li><a href="#usage-examples">Usage Examples</a></li>
+  <li><a href="#contributing">Contributing</a></li>
+</ul>
+
+<h2>🖼️ Usage Examples</h2>
+<p>
+  <img src="docs/images/demo.jpg" alt="MiniPilot in action" width="600"/>
+</p>
+<pre><code>
+# Run detection
+python minipilot.py --source 0 --weights weights/custom_yolov5n.pt
+</code></pre>
+
+<h2>🤝 Contributing</h2>
+<p>
+  Pull requests are welcome! For major changes, open an issue first to discuss what you would like to change.
+</p>
+
+<h2>📄 License</h2>
+<p>
+  This project is licensed under the MIT License. See <a href="LICENSE">LICENSE</a> for details.
+</p>
+
+<hr/>
+<p align="center">
+  <em>Made with ❤️ by Cwalt2</em>
+</p>
+
+<hr>
+
 <div align="center">
   <p>
     <a href="https://www.ultralytics.com/blog/all-you-need-to-know-about-ultralytics-yolo11-and-its-applications" target="_blank">
