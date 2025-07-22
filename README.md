@@ -1,6 +1,8 @@
 <!-- README Template for MiniPilot Project -->
 # MiniPilot 🚗🤖
 
+by Nathan Logan and Christopher Walters
+
 ## **Autonomous robot powered by Raspberry Pi 4 and YOLOv5n**
 
 ### 🌟 Project Overview
