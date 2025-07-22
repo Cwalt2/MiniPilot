@@ -1,0 +1,107 @@
+description: Ultralytics best model trained on E:/Yolov8-Minipilot/Dataset/data.yaml
+author: Ultralytics
+date: '2025-04-24T15:08:44.815793'
+version: 8.3.115
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: all motor vehicle prohibited
+  1: axle load limit
+  2: bullock cart and hand cart prohibited
+  3: cattle ahead
+  4: chevron direction
+  5: compulsary ahead
+  6: compulsary ahead or turn left
+  7: compulsary ahead or turn right
+  8: compulsary keep left
+  9: compulsary keep right
+  10: compulsary sound horn
+  11: compulsary turn left ahead
+  12: compulsary turn right ahead
+  13: cross road
+  14: cycle crossing
+  15: cycle prohibited
+  16: dangerous dip
+  17: falling rocks
+  18: gap in median
+  19: give way
+  20: green
+  21: guarded level crossing
+  22: height limit
+  23: horn prohibited
+  24: hospital ahead
+  25: hump or rough road
+  26: left hand curve
+  27: left reverse bend
+  28: left turn prohibited
+  29: length limit
+  30: loose gravel
+  31: men at work
+  32: narrow bridge ahead
+  33: narrow road ahead
+  34: no entry
+  35: no parking
+  36: no stopping or standing
+  37: overtaking prohibited
+  38: pass either side
+  39: pedestrian crossing
+  40: pedestrian prohibited
+  41: petrol pump ahead
+  42: quay side or river bank
+  43: red
+  44: restriction ends
+  45: right hand curve
+  46: right reverse bend
+  47: right turn prohibited
+  48: road widens ahead
+  49: roundabout
+  50: school ahead
+  51: side road left
+  52: side road right
+  53: slippery road
+  54: speed limit 100
+  55: speed limit 120
+  56: speed limit 15
+  57: speed limit 20
+  58: speed limit 30
+  59: speed limit 40
+  60: speed limit 50
+  61: speed limit 60
+  62: speed limit 70
+  63: speed limit 80
+  64: staggered intersection
+  65: steep ascent
+  66: steep descent
+  67: stop
+  68: straight prohibited
+  69: t intersection
+  70: traffic signal
+  71: truck prohibited
+  72: u turn
+  73: u turn prohibited
+  74: unguarded level crossing
+  75: width limit
+  76: y intersection
+  77: yellow
+  78: Person
+  79: 10 MPH
+  80: 15 MPH
+  81: 20 MPH
+  82: 25 MPH
+  83: 30 MPH
+  84: 35 MPH
+  85: 40 MPH
+  86: 45 MPH
+args:
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: true
+  nms: false
+channels: 3
