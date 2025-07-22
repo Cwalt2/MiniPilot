@@ -1,2 +1,2 @@
 command to start the script. this is edited script
-python3 detect.py --weights best.pt --source 0 --img 640 --conf 0.4 --device cpu --save-txt --project runs/detect --name exp --exist-ok
+python3 weights/traffic.py --weights best.pt --source 0 --img 640 --conf 0.4 --device cpu --save-txt --project runs/detect --name exp --exist-ok
