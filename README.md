@@ -176,7 +176,7 @@ This ends the documentation part. The hardware modules were controlled with simp
 
 #### :movie_camera: MiniPilot Final Project Video
 
-[![MiniPilot Testing](/content/mini-final-thumbnail.png)](https://www.youtube.com/watch?v=wfdWKDR5kUk)
+[![MiniPilot Final Project](/content/mini-final-thumbnail.png)](https://www.youtube.com/watch?v=wfdWKDR5kUk)
 
 ### Versions
 
