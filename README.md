@@ -182,14 +182,14 @@ This ends the documentation part. The hardware modules were controlled with simp
 
 #### 1.0 (first build/prototype)
 
-![video](content/mini-1.png)
+![MiniPilot v1](content/mini-1.png)
 Video shown in content folder
 
 #### 2.0
 
-![screenshot](content/mini-2.png)
+![MiniPilot v2](content/mini-2.png)
 
 #### 3.0 (final)
 
-![screenshot](content/mini-top.png)
-![screenshot](content/mini-bottom.png)
+![MiniPilot v3 Top](content/mini-top.png)
+![MiniPilot v3 Bottom](content/mini-bottom.png)
