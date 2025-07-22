@@ -148,7 +148,7 @@ def check_for_speed_up():
     return None
 ```
 
-The next part is in the main script that stops or speeds the motors up depending on which label is in the text file it read most recently
+The next part is in the main function that stops or speeds the motors up depending on which label is in the text file it read most recently
 
 ``` Python
 
