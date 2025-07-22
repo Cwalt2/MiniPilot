@@ -87,6 +87,9 @@ python minipilot.py --source 0 --weights weights/custom_yolov5n.pt
   <em>Made with ❤️ by Cwalt2</em>
 </p>
 
+![screenshot](content/mini-top.jpg)
+![screenshot](content/mini-bottom.jpg)
+
 <hr>
 
 <div align="center">
