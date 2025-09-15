@@ -195,3 +195,5 @@ Video shown in content folder
 
 ![MiniPilot v3 Top](content/mini-top.png)
 ![MiniPilot v3 Bottom](content/mini-bottom.png)
+
+..
